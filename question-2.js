@@ -6,4 +6,21 @@ const students = [
   { name: "Eve", score: 91 },
 ];
 
-// เริ่มเขียนโค้ดตรงนี้
+/// 1. fillter
+/// 2. map+10%
+/// 3. reduce
+
+
+let findtheStudent = students 
+.filter(findscore => findscore.score > 50  )
+.map(plusScore => plusScore.score*1.10)
+.reduce((acc,cur) => acc + cur,0 )
+
+
+
+
+console.log(`Total score is ${findtheStudent}`);
+
+ 
+ 
+
