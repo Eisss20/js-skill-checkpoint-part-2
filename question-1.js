@@ -18,20 +18,3 @@ const allPeople = [...techupPeople,...techcoolPeople];
 let findTheAge = allPeople.filter(people => people.age < 20)
 
 console.log(findTheAge);
-
-
-
-
-
-
-
-
-
-
-// console.log (findTheAge(allPeople))
-
-// let findTheAge = allPeople.filter(people => people.age < 20)
-
-// console.log(findTheAge);
-
-
